@@ -1,4 +1,141 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .7;
+}
 body {
+    font-family: 'Roboto', sans-serif;
    
+}
+
+.container {
+    
+    height: 750px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows:  1fr 4fr;
+}
+
+.header {
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-color: white;
+    
+}
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    margin: 10px;
+    margin-left: 0;
+    width: 500px;
+    height: 25px;
+    border: none; 
+    background-color: #e0f2fe;
+      border-radius: 8px;
+  
+}
+.search img {
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.headerTopRight {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.bell {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+
+
+.user {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.userName {
+    margin-right: 75px;
+}
+
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userBottom {
+    width: 75px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.userInfoBottom {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.hiThere {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.NameBottom {
+    font-size: 20px;
+}
+
+.headerLinksBottom {
+    margin-right: 50px;
+}
+.headerLinksBottom a {
+    background-color: #0ea5e9 ;
+    color: white;
+    padding: 8px 30px 8px 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.sidebar {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-color: #0ea5e9;
+
+}
+
+.main-content {
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    background-color: #e0f2fe;
+    box-shadow: 0px 0px 8px 0px #969696;
 }
