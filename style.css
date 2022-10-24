@@ -17,7 +17,7 @@ body {
     
     height: 750px;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows:  1fr 4fr;
 }
 
@@ -128,8 +128,47 @@ body {
     grid-row-start: 1;
     grid-row-end: -1;
     background-color: #0ea5e9;
+    color: white;
 
 }
+
+.sidebar a {
+    color: white;
+    font-family: "roboto";
+}
+
+.logotype {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+.sidebarLinks {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.sidebarLinks img {
+    margin-right: 15px;
+}
+
+.sidebarspace {
+    height: 50px;
+}
+
+.logotype img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.logotype h1 {
+    font-weight: 400;
+}
+
 
 .main-content {
     grid-column-start: 2;
