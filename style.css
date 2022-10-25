@@ -50,6 +50,12 @@ body {
       border-radius: 8px;
   
 }
+
+.search input:focus {
+    border: none; 
+    background-color: #e0f2fe;
+    border-radius: 8px;
+}
 .search img {
     width: 20px;
     height: 20px;
@@ -178,12 +184,15 @@ body {
     grid-row-end: -1;
     background-color: #e0f2fe;
     box-shadow: 0px 0px 8px 0px #969696;
+    display: flex;
+  
 }
 .leftMain {
     margin-left: 30px;
     width: 65%;
     display: flex;
     flex-direction: column;
+   
     
 }
 .projectGrid {
@@ -216,4 +225,56 @@ body {
 
 .leftMain h4 {
     margin-left: 10px;
+}
+
+.rightMain {
+    margin-left: 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.rightMain div {
+    font-size: 15px;
+}
+.announcement {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.announcementsOne {
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+}
+.announcementsTwo {
+    margin-left: 10px;
+}
+.announcementsTitle {
+    color: black;
+    font-weight: 600;
+}
+
+.trending {
+    padding: 10px 10px 0px 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.trendingUser {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.trendingUser img {
+    width: 70px;
+    margin-right: 20px;
+}
+.trendingUserName {
+    color: black;
+    font-weight: 500;
 }
