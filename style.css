@@ -15,10 +15,10 @@ body {
 
 .container {
     
-    height: 750px;
+    
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows:  1fr 4fr;
+    grid-template-columns: 1fr 3.5fr;
+    grid-template-rows:  1fr 5fr;
 }
 
 .header {
@@ -153,7 +153,8 @@ body {
 
 }
 .sidebarLinks img {
-    margin-right: 15px;
+    margin-right: 20px;
+    width: 15px;
 }
 
 .sidebarspace {
@@ -177,4 +178,42 @@ body {
     grid-row-end: -1;
     background-color: #e0f2fe;
     box-shadow: 0px 0px 8px 0px #969696;
+}
+.leftMain {
+    margin-left: 30px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px
+}
+
+.projectDescription {
+    background-color: white;
+    width: 250px;
+    border-left: solid 5px #ffdb58;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+    border-radius: 10px;
+
+}
+
+.projectIcons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 140px;
+}
+.projectTitle {
+    
+    color: black;
+    font-weight: 600;
+}
+
+.leftMain h4 {
+    margin-left: 10px;
 }
